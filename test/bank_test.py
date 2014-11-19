@@ -29,7 +29,7 @@ class BankTest(unittest.TestCase):
         bank = Bank()
         account_1 = Account(001,400)
         bank.add_account(account_1)
-        self.assertEqual(bank.does_account_exist(002),1)
+        self.assertEqual(bank.does_account_exist(002),0)
 
 if __name__ == '__main__':
     unittest.main()

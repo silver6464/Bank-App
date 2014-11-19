@@ -9,5 +9,8 @@ class Bank(object):
     def account_withdraw(self, account_number,amount):    	
     	self.accounts[account_number] -= amount
     def does_account_exist(self,account_number):
-    	return self.accounts[account_number]
+    	if (self.accounts.get(account_number)):
+    		return 1
+    	else:
+    		return 0
     	
