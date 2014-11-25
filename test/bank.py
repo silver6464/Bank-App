@@ -11,8 +11,5 @@ class Bank(object):
     		self.accounts[account_number] -= amount    		
 
     def does_account_exist(self,account_number):
-    	if (self.accounts.get(account_number)):
-    		return 1
-    	else:
-    		return 0
+    	return account_number in self.accounts
     	
