@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20141128 17:25:12.129" generator="Robot 2.8.4 (Python 2.7.6 on linux2)">
+<suite source="/home/silver/Desktop/git/Bank/test/robot" id="s1" name="Robot">
+<suite source="/home/silver/Desktop/git/Bank/test/robot/tests" id="s1-s1" name="Tests">
+<suite source="/home/silver/Desktop/git/Bank/test/robot/tests/bank.txt" id="s1-s1-s1" name="Bank">
+<test id="s1-s1-s1-t1" name="Retrieve customer balance">
+<kw type="kw" name="steps.Given I create the account 1111 with balance 50">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="robotLibrary.Create Account">
+<doc></doc>
+<arguments>
+<arg>${account_number}</arg>
+<arg>${balance}</arg>
+</arguments>
+<status status="PASS" endtime="20141128 17:25:12.341" starttime="20141128 17:25:12.341"></status>
+</kw>
+<status status="PASS" endtime="20141128 17:25:12.341" starttime="20141128 17:25:12.340"></status>
+</kw>
+<kw type="kw" name="steps.When I retrieve the account 1111">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="robotLibrary.Visit Homepage">
+<doc></doc>
+<arguments>
+</arguments>
+<status status="PASS" endtime="20141128 17:25:12.348" starttime="20141128 17:25:12.342"></status>
+</kw>
+<kw type="kw" name="robotLibrary.Enter Account">
+<doc></doc>
+<arguments>
+<arg>${account_number}</arg>
+</arguments>
+<status status="PASS" endtime="20141128 17:25:12.358" starttime="20141128 17:25:12.348"></status>
+</kw>
+<status status="PASS" endtime="20141128 17:25:12.358" starttime="20141128 17:25:12.342"></status>
+</kw>
+<kw type="kw" name="steps.And the balance should be 50">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="robotLibrary.Get Balance">
+<doc></doc>
+<arguments>
+<arg>${balance}</arg>
+</arguments>
+<status status="PASS" endtime="20141128 17:25:12.360" starttime="20141128 17:25:12.359"></status>
+</kw>
+<status status="PASS" endtime="20141128 17:25:12.360" starttime="20141128 17:25:12.359"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" endtime="20141128 17:25:12.360" critical="yes" starttime="20141128 17:25:12.339"></status>
+</test>
+<doc>Example Robot tests for
+Bank application</doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20141128 17:25:12.360" starttime="20141128 17:25:12.156"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20141128 17:25:12.361" starttime="20141128 17:25:12.154"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20141128 17:25:12.362" starttime="20141128 17:25:12.130"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" pass="1" id="s1" name="Robot">Robot</stat>
+<stat fail="0" pass="1" id="s1-s1" name="Tests">Robot.Tests</stat>
+<stat fail="0" pass="1" id="s1-s1-s1" name="Bank">Robot.Tests.Bank</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
