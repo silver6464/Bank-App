@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generated="20141128 17:25:12.129" generator="Robot 2.8.4 (Python 2.7.6 on linux2)">
+<robot generated="20141129 10:23:50.889" generator="Robot 2.8.4 (Python 2.7.6 on linux2)">
 <suite source="/home/silver/Desktop/git/Bank/test/robot" id="s1" name="Robot">
 <suite source="/home/silver/Desktop/git/Bank/test/robot/tests" id="s1-s1" name="Tests">
 <suite source="/home/silver/Desktop/git/Bank/test/robot/tests/bank.txt" id="s1-s1-s1" name="Bank">
@@ -14,9 +14,9 @@
 <arg>${account_number}</arg>
 <arg>${balance}</arg>
 </arguments>
-<status status="PASS" endtime="20141128 17:25:12.341" starttime="20141128 17:25:12.341"></status>
+<status status="PASS" endtime="20141129 10:23:52.537" starttime="20141129 10:23:52.537"></status>
 </kw>
-<status status="PASS" endtime="20141128 17:25:12.341" starttime="20141128 17:25:12.340"></status>
+<status status="PASS" endtime="20141129 10:23:52.537" starttime="20141129 10:23:52.536"></status>
 </kw>
 <kw type="kw" name="steps.When I retrieve the account 1111">
 <doc></doc>
@@ -26,16 +26,16 @@
 <doc></doc>
 <arguments>
 </arguments>
-<status status="PASS" endtime="20141128 17:25:12.348" starttime="20141128 17:25:12.342"></status>
+<status status="PASS" endtime="20141129 10:23:52.556" starttime="20141129 10:23:52.538"></status>
 </kw>
 <kw type="kw" name="robotLibrary.Enter Account">
 <doc></doc>
 <arguments>
 <arg>${account_number}</arg>
 </arguments>
-<status status="PASS" endtime="20141128 17:25:12.358" starttime="20141128 17:25:12.348"></status>
+<status status="PASS" endtime="20141129 10:23:52.665" starttime="20141129 10:23:52.556"></status>
 </kw>
-<status status="PASS" endtime="20141128 17:25:12.358" starttime="20141128 17:25:12.342"></status>
+<status status="PASS" endtime="20141129 10:23:52.666" starttime="20141129 10:23:52.538"></status>
 </kw>
 <kw type="kw" name="steps.And the balance should be 50">
 <doc></doc>
@@ -46,30 +46,30 @@
 <arguments>
 <arg>${balance}</arg>
 </arguments>
-<status status="PASS" endtime="20141128 17:25:12.360" starttime="20141128 17:25:12.359"></status>
+<status status="PASS" endtime="20141129 10:23:52.667" starttime="20141129 10:23:52.667"></status>
 </kw>
-<status status="PASS" endtime="20141128 17:25:12.360" starttime="20141128 17:25:12.359"></status>
+<status status="PASS" endtime="20141129 10:23:52.667" starttime="20141129 10:23:52.666"></status>
 </kw>
 <doc></doc>
 <tags>
 </tags>
-<status status="PASS" endtime="20141128 17:25:12.360" critical="yes" starttime="20141128 17:25:12.339"></status>
+<status status="PASS" endtime="20141129 10:23:52.667" critical="yes" starttime="20141129 10:23:52.535"></status>
 </test>
 <doc>Example Robot tests for
 Bank application</doc>
 <metadata>
 </metadata>
-<status status="PASS" endtime="20141128 17:25:12.360" starttime="20141128 17:25:12.156"></status>
+<status status="PASS" endtime="20141129 10:23:52.668" starttime="20141129 10:23:50.984"></status>
 </suite>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="PASS" endtime="20141128 17:25:12.361" starttime="20141128 17:25:12.154"></status>
+<status status="PASS" endtime="20141129 10:23:52.668" starttime="20141129 10:23:50.982"></status>
 </suite>
 <doc></doc>
 <metadata>
 </metadata>
-<status status="PASS" endtime="20141128 17:25:12.362" starttime="20141128 17:25:12.130"></status>
+<status status="PASS" endtime="20141129 10:23:52.669" starttime="20141129 10:23:50.890"></status>
 </suite>
 <statistics>
 <total>
