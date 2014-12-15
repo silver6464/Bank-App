@@ -2,7 +2,7 @@
 from flask import Flask, render_template, request
 from bank.account import Account
 from bank.bank import Bank
-app = Flask(__name__)
+app = Flask(__name__)  #pylint: disable=C0103
 BANK = Bank()
 @app.route('/')
 def hello_world():
@@ -13,7 +13,7 @@ def hello_world():
 if __name__ == '__main__':
     import cProfile
 
-    account = Account('1111', 50)
+    account = Account('1111', 50)#pylint: disable=C0103
     BANK.add_account(account)
     cProfile.run('app.run(debug=True)')
     #cProfile.run('app.run(debug=True)', sort='time')
